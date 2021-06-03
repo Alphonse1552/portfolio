@@ -1,32 +1,60 @@
-import * as React from "react"
-import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
+import React from "react"
+import { useStaticQuery, graphql, Link } from "gatsby"
 
+import Img from "gatsby-plugin-image"
 import Layout from "../components/layout"
-import Seo from "../components/seo"
+import SEO from "../components/seo"
+import Post from "../components/post"
 
-const IndexPage = () => (
-  <Layout>
-    <Seo title="Home" />
-    <h1>Greetings!</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
+const Blog = () => {
+  const data = useStaticQuery(
+    graphql`
+      query {
+        allContentfulMichaelPortfolio(sort:{fields:id, order:DESC}) {
+          edges {
+            node {
+              firstPost
+              id
+              bodyofpost {
+                bodyofpost
+                id
+              }
+              time
+              images {
+                title
+              }
+            }
+          }
+        }
+      }
+    `
+  )
+  return (
 
+    <Layout>
+      	<div style={{ textAlign: 'center' }}>
+				<h1>Greetings!</h1>
+				<h2>I'm Michael, here are some things I am working on</h2>
+      
+      <div className="columnCentered">
 
-
-    <StaticImage
-      src="../images/gatsby-astronaut.png"
-      width={300}
-      quality={95}
-      formats={["AUTO", "WEBP", "AVIF"]}
-      alt="A Gatsby astronaut"
-      style={{ marginBottom: `1.45rem` }}
-    />
-    <p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
-      <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-    </p>
-  </Layout>
-)
-
-export default IndexPage
+      {
+        data.allContentfulMichaelPortfolio.edges.map(edge=>
+         
+          <Post
+            style={{ textAlign: 'center' }}
+            title={edge.node.firstPost} 
+            content={edge.node.bodyofpost.bodyofpost}
+            date={edge.node.time}
+            />
+        
+          
+        )
+      }
+      
+      </div>
+      </div>
+    </Layout>
+  )
+}
+export default Blog
