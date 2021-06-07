@@ -1,10 +1,10 @@
 import React from "react"
 import { useStaticQuery, graphql, Link } from "gatsby"
 
-import Img from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Post from "../components/post"
+import styled from "styled-components"
 
 const Blog = () => {
   const data = useStaticQuery(
@@ -20,9 +20,6 @@ const Blog = () => {
                 id
               }
               time
-              images {
-                title
-              }
             }
           }
         }
@@ -32,17 +29,21 @@ const Blog = () => {
   return (
 
     <Layout>
-      	<div style={{ textAlign: 'center' }}>
+        <font color="b2ab8c">  
 				<h1>Greetings!</h1>
-				<h2>I'm Michael, here are some things I am working on</h2>
+        </font>  
+        <font color="dbe6fd">  
+				<h2>I'm Michael, here are some things I am working on</h2> 
+        </font> 
+
+
+        
       
-      <div className="columnCentered">
 
       {
         data.allContentfulMichaelPortfolio.edges.map(edge=>
          
           <Post
-            style={{ textAlign: 'center' }}
             title={edge.node.firstPost} 
             content={edge.node.bodyofpost.bodyofpost}
             date={edge.node.time}
@@ -51,9 +52,6 @@ const Blog = () => {
           
         )
       }
-      
-      </div>
-      </div>
     </Layout>
   )
 }

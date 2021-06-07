@@ -5,11 +5,22 @@ module.exports = {
   siteMetadata: {
     description: `This is Michael Moschello's personal portfolio website showcasing what he does`,
     author: `Michael Moschello- alphonse52leo@gmail.com`,
+    menuLinks:[
+    {
+      name:'home',
+      link:'/'
+    },
+    {
+      name:'blog',
+      link:'/blog'
+    }
+    ]
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     'gatsby-transformer-remark',
+    `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
