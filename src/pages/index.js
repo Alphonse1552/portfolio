@@ -35,11 +35,8 @@ const Blog = () => {
         <font color="dbe6fd">  
 				<h2>I'm Michael, here are some things I am working on</h2> 
         </font> 
-
-
         
       
-
       {
         data.allContentfulMichaelPortfolio.edges.map(edge=>
          
@@ -48,8 +45,6 @@ const Blog = () => {
             content={edge.node.bodyofpost.bodyofpost}
             date={edge.node.time}
             />
-        
-          
         )
       }
     </Layout>
