@@ -38,12 +38,11 @@ const Blog = () => {
         <font color="dbe6fd">  
         
           <h2> Hi, I am Michael, a student currently studying at Ridge High School</h2>
-          <div class="shadow">
+         
           <div class="img">
-          <img src="https://lh3.googleusercontent.com/yqFfGgG0xgCnHgNO7v92QQ-HSTpD3OFEm4hK-V-NfjufXw997Cvn-Guv9O74NswgmLW6GH9POgIAmj7biI1LLreRPhhkUy7Uj13QQhhuK1yU5nJQQuhCfr8WsvcoXpwjLLeBsWn8JDxWGE9P-f8m7VOuT6BQLt7SdLfmtrrRVlGJoj4L7h80TtALC4IY48F2w4HlZQd9bAba2LV96p73h8yWCswhuzuVSyqrrDkvzIqh5vwa1Oe-lm9Q4zBtLF6NtUiRfi1CC34LhrZqiums58nRp5PnvlPW47F9oCU0oRLLrQB8H6O_hMHGjqrKzZC9PuOTdEsEqPPXnO2J3CEGijKeLqPch7EKM0OxATyZnSC5EJWFcN3guXonT8vu3fv-iu-6mremGXhi05jVlMG0TICXbzEvjCqdyafHIqthfVUQ360PYAEZWSZP0N8swBpEEl-lf1m9iQyFlaBP_SlbcAtCBdW3XEakRRS5EgNYMkLVxknjQhw5rZWcYnK39MPjJ3IQmeRZNLJ09LO3vEswRDuXbmCGxM7LgOqVO3NfqrBhHwOWrvERHKegnzNAKRolNSef8FMnGlyIaXs2YgWcOCEWVYVFJxqPo5kfm86j_Ru4m9GKtCDqQ-4pLGksklFU4i87RkLmmSnUBJC45GgYfnVUYWTOl4eijsRnLvQKfuaECxC-nqBpga9rhrnnbvmo15jTnggIlzD-__pD-w3vrZU=w1233-h924-no?authuser=0"></img>
+          <img src="https://lh3.googleusercontent.com/DHyItYzPbvReqojSFPGct58HaB9VTOzfFzq6yNR0vNWp3ArhE1Alcsvt2j_XC3hij-8wHrqvJ-RHHelo4eYAbq8y7b7ladOsWeORWfpYxbGxDMnWIDNsFCHW5uX5Phu2cOkCJInPwJr__s0gbCIkAxkH_gpNzCV_KUKPWtfyYIUpMZUA3ilzq5RPy0U9F3_sxquH8OZX_HARESHTxc8PfsJHgBSUd06O-BjULXTSm4HPvvMiIZbT0YboTfYutM2cvn0EqzPQpyqqGwj3VnON3Dy_wNj1k-OzDrxl1X1Y1eAXb8Ix6JMQq0a0UhuHFkJQFoNm8tUBe4huicJi3vIHVz_R2fM5KR5glMOmeUvl8quRtJ-xaNlGcF6vavJIw2NSqg_82GkJ4LcBhesjX7-n-EVN5zRFCMw0r9IMPiH9MHAi9R_0lKl9Gpl1DtAgltclhMvD2gBou5mQ1kZPdV2MPYKSXNqbpRjKoDIRw8mQ4UlIRxyglx73kszdZ0XcV0370YF478L6ElqqDz5x-iNL7BVvp-A7h0NvAsTRLiAiPdcXx77vExm0fnmpllMVBzfRhGWxGcAgXBd3e3KVLNWppLLuh81uc_Z33PV8WNrzAXrlx2tDbGWzxzyi6ppYr_ImOAR6Xc1PIKL8CyBz9QPge17R9N0WbWaV8KShKngU-XwbvBbjJrtliWECLzXC1kwbiUtYWdUxRqQwsA9Kq3arZWM=w1233-h924-no?authuser=0"></img>
           </div>
-          </div>
-          <h3>Besides debating, engineering things, and being a student. I spend my free time golfing, and playing videogames.</h3>
+          <h3>Besides debating, engineering things, and being a student. I spend my free time golfing, and playing video games.</h3>
 
         </font> 
         </center>

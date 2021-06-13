@@ -1,18 +1,11 @@
-.container {
-	max-width: 50000px;
-	width: 100%;
-	border-radius: 8px;
-	background-color: var(--light);
-	padding: 12px;
-	margin-bottom: 16px;
-	box-sizing: border-box;
-	animation: zoomin 0.5s backwards ease;
-	box-shadow: 0 0 12px 0 #0004;
-}
- 
 img {
     max-width: 55%;
     max-height: 55%;
     height: auto;
     width: auto; 
+    -webkit-border-radius: 50%;
+	border:2px solid #000;
+	box-shadow: 5px 5px 5px rgb(15, 1, 77);
+
 }
+
