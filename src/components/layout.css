@@ -11,6 +11,7 @@ body {
 	--button-shadow: 0 0 6px 0px #0008;
 }
 
+
 body.theme-dark {
 	--bg: rgb(5, 4, 22);
 	--text: #ddd;
@@ -48,5 +49,6 @@ div {
 	flex-direction: column;
 	align-items: center;
 }
+
 
 
