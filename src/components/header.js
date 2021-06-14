@@ -3,15 +3,14 @@ import { Link } from "gatsby"
 import React, { useState } from "react"
 import { graphql, useStaticQuery } from 'gatsby'
 import "./layout.css"
-
 const Header = () => (
-
+ 
   <header
   
     style={{
       background: `#293b5f`,
       marginBottom: `1.25rem`,
-      
+      textAlign: 'center',
     }}
   >
     
@@ -21,7 +20,7 @@ const Header = () => (
         maxWidth: '0 auto',
         padding: `1.25rem 1.0875rem`,
         display: 'flex',
-        
+        alignItems: 'center',
       }}
     >
       <div>
@@ -32,6 +31,7 @@ const Header = () => (
           style={{
             textAlign: 'center',
             textDecoration: `blink`,
+            
           }}
         >
           
@@ -99,6 +99,7 @@ const Header = () => (
     </div>
   
   </header>
+ 
 )
 
 Header.propTypes = {
