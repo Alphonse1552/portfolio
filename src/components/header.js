@@ -31,7 +31,6 @@ const Header = () => (
           style={{
             textAlign: 'center',
             textDecoration: `blink`,
-            
           }}
         >
           
@@ -92,7 +91,20 @@ const Header = () => (
           Debate
           </font>
         </Link>
-        
+        &nbsp;  |  &nbsp;
+      
+      
+        <Link
+          to="/contact"
+          style={{
+            textAlign: 'center',
+            textDecoration: `blink`,  
+          }}
+        >
+          <font color="dbe6fd"> 
+          Contact
+          </font>
+        </Link>
         </h3>
       
         </font>   
