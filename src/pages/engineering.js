@@ -36,7 +36,6 @@ const Blog = () => {
         </font> 
 
         <div className= 'box'>
-          <h3>hello</h3>
         </div>
         </center>
         
