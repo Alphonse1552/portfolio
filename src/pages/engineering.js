@@ -43,7 +43,7 @@ const Blog = () => {
         </h4>
         <h4>Here is a video of a simple demonstration</h4>
         <iframe src="https://onedrive.live.com/embed?cid=73C067F482FC8E49&resid=73C067F482FC8E49%21305642&authkey=ACEWP-tSNr6WqFU" width="180" height="320" ></iframe>
-
+        <h6>You might have to wait a bit because the onedrive api is a bit slow</h6>
         </div>
         </center>
         
