@@ -36,6 +36,14 @@ const Blog = () => {
         </font> 
 
         <div className= 'box'>
+        <h3> Thrust Vectoring System </h3>
+        <h4>A few years ago, for one of my first serious engineering projects, I made a thrust vectoring system.
+         It is a really interesting system that uses 2 servos, an accelerometer, and a microcontroller, to control a 
+         tube that houses a rocket motor.
+        </h4>
+        <h4>Here is a video of a simple demonstration</h4>
+        <iframe src="https://onedrive.live.com/embed?cid=73C067F482FC8E49&resid=73C067F482FC8E49%21305642&authkey=ACEWP-tSNr6WqFU" width="180" height="320" ></iframe>
+
         </div>
         </center>
         

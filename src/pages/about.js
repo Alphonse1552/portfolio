@@ -2,9 +2,6 @@ import React from "react"
 import { useStaticQuery, graphql, Link } from "gatsby"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
-import Post from "../components/post"
-import styled from "styled-components"
 import "./pagestyle.css"
 
 const Blog = () => {
