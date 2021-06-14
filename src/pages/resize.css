@@ -1,4 +1,4 @@
-.resize{
-    height: auto;
-    width: auto;
+.center{
+    text-align: center;
+    align-items: center;
 }

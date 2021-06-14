@@ -6,7 +6,6 @@ import "./boxshadow.css"
 import "./resize.css"
 
 
-
 const Blog = () => {
   const data = useStaticQuery(
     graphql`
@@ -29,6 +28,7 @@ const Blog = () => {
   )
   return (
     <Layout>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"></link>
 <center>
         <font color="b2ab8c">  
 				<h1>Contact</h1> 
@@ -36,7 +36,17 @@ const Blog = () => {
         <font color="dbe6fd">  
         <h3>Here is how to get in touch with me</h3>
         </font> 
-        </center>
+        <h2>
+        <font color = '#0000'>
+        <div className = 'center' >
+        <i class="material-icons">email</i>
+        &nbsp;&nbsp;
+        alphonse52leo@gmail.com
+        </div>
+        </font>
+        </h2>
+
+  </center>
     </Layout>
   )
 }
