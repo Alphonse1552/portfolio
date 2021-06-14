@@ -35,16 +35,16 @@ const Blog = () => {
         </font>
         <font color="dbe6fd">  
         <h3>Here is how to get in touch with me</h3>
-        </font> 
+      
         <h2>
-        <font color = '#0000'>
         <div className = 'center' >
         <i class="material-icons">email</i>
         &nbsp;&nbsp;
         alphonse52leo@gmail.com
         </div>
-        </font>
         </h2>
+        </font>
+      
 
   </center>
     </Layout>
