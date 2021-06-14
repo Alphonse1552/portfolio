@@ -2,9 +2,7 @@ import React from "react"
 import { useStaticQuery, graphql, Link } from "gatsby"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
-import Post from "../components/post"
-import styled from "styled-components"
+import "./boxshadow.css"
 
 const Blog = () => {
   const data = useStaticQuery(
@@ -31,11 +29,15 @@ const Blog = () => {
     <Layout>
         <center> 
         <font color="b2ab8c">  
-				<h2>Here are some things that I am currently building/engineering</h2> 
+				<h2>Here are some things that I am currently engineering</h2> 
         </font>
         <font color="dbe6fd">  
-        <h3>I prorobly discribed them in my blog posts, but these are for more detail</h3>
+        <h3>I probably described them in my blog posts, but these are for more detail</h3>
         </font> 
+
+        <div className= 'box'>
+          <h3>hello</h3>
+        </div>
         </center>
         
     </Layout>
